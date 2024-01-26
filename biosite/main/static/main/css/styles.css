@@ -1,0 +1,108 @@
+/* main/css/styles.css */
+
+html, body {
+    font-family: 'Univers Condensed Bold';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: #444;
+}
+
+img {
+    max-width: 600px;
+    height: auto;
+}
+
+img.img-article-left {
+    max-width: 300px;
+    height: auto;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+img.img-article-left.thumb {
+    max-width: 150px;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: none;
+    height: 60px;
+    z-index: 1000;
+}
+
+ul.mainmenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    color: #fdc073;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+ul.mainmenu li {
+    float: left;
+    margin: 18px 40px 0 30px;
+}
+
+ul.mainmenu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+ul.mainmenu li a:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+    padding: 15px;
+    width: 120%;
+}
+
+
+
+.black-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -20px; /* Измените значение отрицательного отступа в соответствии с вашими предпочтениями */
+}
+.caption {
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: "GothicE", Arial, sans-serif;
+}
